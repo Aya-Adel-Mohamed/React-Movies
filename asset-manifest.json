@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-Movies/static/css/main.9ca98917.css",
+    "main.js": "/React-Movies/static/js/main.95f164b9.js",
+    "static/media/title-image-1.webp": "/React-Movies/static/media/title-image-1.eb5e2899315f131fed94.eb5e2899315f131fed94.webp",
+    "static/media/fa-solid-900.ttf": "/React-Movies/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
+    "static/media/fa-brands-400.ttf": "/React-Movies/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
+    "static/media/fa-solid-900.woff2": "/React-Movies/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
+    "static/media/fa-brands-400.woff2": "/React-Movies/static/media/fa-brands-400.3ac6859b28be946745f9.woff2",
+    "static/media/fa-regular-400.ttf": "/React-Movies/static/media/fa-regular-400.3cd9fb8fcec4ad0f99d4.ttf",
+    "static/media/fa-regular-400.woff2": "/React-Movies/static/media/fa-regular-400.1f3772178d9e5bed38a6.woff2",
+    "static/media/fa-v4compatibility.ttf": "/React-Movies/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
+    "static/media/fa-v4compatibility.woff2": "/React-Movies/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
+    "static/media/slick.svg": "/React-Movies/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/React-Movies/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/React-Movies/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/React-Movies/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/React-Movies/index.html",
+    "main.9ca98917.css.map": "/React-Movies/static/css/main.9ca98917.css.map",
+    "main.95f164b9.js.map": "/React-Movies/static/js/main.95f164b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ca98917.css",
+    "static/js/main.95f164b9.js"
+  ]
+}
