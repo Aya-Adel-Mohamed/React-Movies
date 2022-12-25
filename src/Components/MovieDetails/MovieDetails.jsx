@@ -40,7 +40,7 @@ export default function MovieDetails() {
             <p className='fs-3 text-white-50 mt-1'>{details?.tagline}</p>
             {details?.known_for_department?<p className='fs-5 text-info fw-bold'>{details?.known_for_department}</p>:""}
             {details?.biography?<p className='fs-6 text-white-50'>{details?.biography}</p>:""}
-            <ul className='list-unstyled d-flex'>
+            <ul className='list-unstyled d-flex flex-wrap'>
               {details?.genres?.map(genre=><div className='bg-info p-2 mx-2 rounded-2 fs-6 mb-2'>{genre.name}</div>)}
             </ul>
             {details?.vote_average?<p className='fs-5 my-4'>Vote : {details?.vote_average}</p>:''}
