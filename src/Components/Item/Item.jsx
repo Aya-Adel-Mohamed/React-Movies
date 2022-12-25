@@ -2,14 +2,14 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 
-export default function Item({data}) {
+export default function Item({data,type}) {
   return (
     <>
     <div className="col-lg-2 col-md-3 position-relative">
     <div className="item position-relative overflow-hidden">
       {data.poster_path? <img src={"https://image.tmdb.org/t/p/w500"+data.poster_path} className='w-100' alt="" />:''}
       {data.profile_path? <img src={"https://image.tmdb.org/t/p/w500"+data.profile_path} className='w-100' alt="" />:''}
-      <Link to={'/details/'+ data.id +'/'+ data.media_type}> <div className="overlay p-2 text-white text-center d-flex justify-content-center align-items-center">
+      <Link to={'/details/'+ data.id +'/'+ type}> <div className="overlay p-2 text-white text-center d-flex justify-content-center align-items-center">
         {data.overview?data.overview.split(" ").splice(0,15).join(" ")+'...':data.known_for_department}
         </div>
       </Link>

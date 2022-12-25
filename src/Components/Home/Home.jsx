@@ -41,7 +41,7 @@ return (
               <p className='text-white-50 fs-5'>most watched movies by days</p>
             </div>
           </div>
-          {movies?.slice(0,10).map(movie=><Item key={movie.id} data={movie}/>)}
+          {movies?.slice(0,10).map(movie=><Item key={movie.id} data={movie} type={`movie`}/>)}
         </div>
         <div className="row mt-5">
           <div className="col-lg-4 col-md-6">
@@ -50,7 +50,7 @@ return (
               <p className='text-white-50 fs-5'>most watched tv by days</p>
             </div>
           </div>
-          {tv?.slice(0,10).map(tv=><Item key={tv.id} data={tv}/>)}
+          {tv?.slice(0,10).map(tv=><Item key={tv.id} data={tv} type={`tv`}/>)}
         </div>
         <div className="row mt-5">
           <div className="col-lg-4 col-md-6">
@@ -59,7 +59,7 @@ return (
               <p className='text-white-50 fs-5'>most watched people by days</p>
             </div>
           </div>
-          {person?.slice(0,10).map(person=><Item key={person.id} data={person}/>)}
+          {person?.slice(0,10).map(person=><Item key={person.id} data={person} type={`person`}/>)}
         </div>
     </div>
     </>}

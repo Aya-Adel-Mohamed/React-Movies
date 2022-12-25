@@ -68,7 +68,7 @@ export default function Movies() {
     <div className="px-2">
       <input type='text' onChange={searchMovies}className='form-control bg-search mb-5 px-3 py-2 rounded-pill border-info' placeholder='Search .....'></input>
       </div>
-      {movies?.map(movie=><Item key={movie.id} data={movie}/>)}
+      {movies?.map(movie=><Item key={movie.id} data={movie} type={`movie`}/>)}
     </div>
     <div className='paginate-ctn'>
       {currentPage<=1?'':<div  className='cursor fw-bolder fs-5 mx-3' onClick={prevPage}>&lsaquo;</div>}

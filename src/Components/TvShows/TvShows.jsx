@@ -27,6 +27,7 @@ export default function TvShows() {
       let {data}=  await axios.get(`https://api.themoviedb.org/3/search/tv?api_key=bdd10d2b8f52bc0a5320d5c9d88bd1ff&language=en-US&page=1&query=${e.target.value}&include_adult=false`)
       console.log(data);
       setTv(data.results)
+      
     }else{
       getTrending('tv',setTv);
     }
@@ -65,9 +66,9 @@ export default function TvShows() {
     <div className="container pt-5">
     <div className="row mt-5">
       <div className="px-2">
-      <input type='text' onChange={searchTv}className='form-control bg-search mb-5 px-3 py-2 rounded-pill border-info' placeholder='Search .....'></input>
+      <input type='text' onChange={searchTv} className='form-control bg-search mb-5 px-3 py-2 rounded-pill border-info' placeholder='Search .....'></input>
       </div>
-      {tv?.map(movie=><Item key={movie.id} data={movie}/>)}
+      {tv?.map(movie=><Item key={movie.id} data={movie} type={`tv`}/> )}
     </div>
     <div className='paginate-ctn'>
       {currentPage<=1?'':<div  className='cursor fw-bolder fs-5 mx-3' onClick={prevPage}>&lsaquo;</div>}
