@@ -1,4 +1,4 @@
-{ "homepage": "https://Aya-Adel-Mohamed.github.io/React-Movie-App",
+{ "homepage": "https://Aya-Adel-Mohamed.github.io/React-Movies",
   "name": "final",
   "version": "0.1.0",
   "private": true,
@@ -29,7 +29,7 @@
   },
   "scripts": {
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d build -r https://github.com/Aya-Adel-Mohamed/React-Movie-App",
+    "deploy":"gh-pages -d build -r https://github.com/Aya-Adel-Mohamed/React-Movies",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
