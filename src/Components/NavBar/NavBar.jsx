@@ -50,7 +50,7 @@ export default function NavBar(props) {
           <span className="nav-link text-white cursor" onClick={logOut}>Logout</span>
         </li>
         <li className="nav-item">
-        <Link className="nav-link text-info fw-bold d-flex justify-content-center align-items-center" to='profile'>{userData.first_name}<i className='ms-2 fa-solid fa-user'></i></Link>
+        <Link className="nav-link text-info fw-bold d-flex justify-content-center align-items-center" to='profile'>{userData.name}<i className='ms-2 fa-solid fa-user'></i></Link>
       </li></>:<>
         <li className="nav-item">
           <Link className="nav-link text-white" to='register'>Register</Link>
